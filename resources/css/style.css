@@ -1,1 +1,16 @@
 @charset "UTF-8"
+
+/* universal styles */
+html {
+  font-size: 18px;
+}
+
+body {
+  background: url(../images/web_dev3_resize.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+ .main-nav {
+ background-color: rgba();
+
+ }
