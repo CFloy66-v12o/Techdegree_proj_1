@@ -10,7 +10,43 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+ .main-nav ul {
+   list-style-type: none;
+ }
+  /*main-nav styles */
  .main-nav {
  background-color: rgba();
+}
 
- }
+.nav {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  width: 65%;
+}
+
+.name {
+  font-style: Comic;
+  font-size: 3rem;
+}
+
+.name:hover {
+  color: #3882ff;
+  transform: scale(1.5) rotate(15deg);
+}
+
+
+
+
+/* header */
+.profile-image {
+  border: solid black 3px;
+  border-radius: 50%;
+  size: 4rem;
+}
+
+.profile-image:active {
+  position: relative;
+  top: 4px;
+  right: 4px;
+}
