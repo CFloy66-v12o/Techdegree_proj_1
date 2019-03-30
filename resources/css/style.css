@@ -9,19 +9,28 @@ body {
   background: url(../images/web_dev3_resize.png);
   background-size: cover;
   background-repeat: no-repeat;
+  font-size: 1.4rem;
+  font-weight: 600;
 }
  .main-nav ul {
    list-style-type: none;
  }
+
+ a:active {
+   position: relative;
+   top: 3px;
+   right: 3px;
+ }
   /*main-nav styles */
  .main-nav {
- background-color: rgba();
+ background-color: rgba(0,0,255,0.4);
 }
 
 .nav {
   display: flex;
   justify-content: space-around;
   flex-direction: row-reverse;
+  align-items: center;
   width: 65%;
 }
 
@@ -34,9 +43,6 @@ body {
   color: #3882ff;
   transform: scale(1.5) rotate(15deg);
 }
-
-
-
 
 /* header */
 .profile-image {
