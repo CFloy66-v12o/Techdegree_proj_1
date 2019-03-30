@@ -3,6 +3,7 @@
 /* universal styles */
 html {
   font-size: 18px;
+  margin-left: 0.4rem;
 }
 
 body {
@@ -11,9 +12,18 @@ body {
   background-repeat: no-repeat;
   font-size: 1.4rem;
   font-weight: 600;
+  background-color: black;
+  color: rgba(255, 99, 71, 1);
 }
+
+
+
  .main-nav ul {
    list-style-type: none;
+ }
+
+ ul {
+   list-style-type: circle;
  }
 
  a:active {
@@ -21,9 +31,14 @@ body {
    top: 3px;
    right: 3px;
  }
-  /*main-nav styles */
+
+ a {
+   color: rgba(255, 99, 71, 0.6);
+ }
+
+  /* main-nav styles */
  .main-nav {
- background-color: rgba(0,0,255,0.4);
+ background-color: rgba(0,0,255,0.6);
 }
 
 .nav {
@@ -35,9 +50,10 @@ body {
 }
 
 .name {
-  font-style: Comic;
+  font-style: Courier, monospace;
   font-size: 3rem;
 }
+
 
 .name:hover {
   color: #3882ff;
@@ -53,6 +69,18 @@ body {
 
 .profile-image:active {
   position: relative;
-  top: 4px;
-  right: 4px;
+  top: 6px;
+  right: 6px;
+}
+
+
+
+
+
+
+
+
+/*footer */
+.copyright {
+  text-align: center;
 }
