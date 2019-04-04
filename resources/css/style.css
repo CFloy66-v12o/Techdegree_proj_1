@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 18px;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -13,6 +17,13 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #222;
   background: #f7f5f0;
+}
+
+.border {
+  border: solid black 3px;
+  border-radius: 15px;
+  text-align: center;
+  background-color: rgba(255,51,0,0.2);
 }
 /* Link Styles */
 
@@ -77,7 +88,7 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(35deg);
 }
 .tag {
   background-color: #efefef;
@@ -86,6 +97,12 @@ header .profile-image:hover {
   border-radius: 5px;
   display: table;
   margin: 10px auto;
+}
+
+.tag-name:hover {
+  transform: scale(1.5) rotate(15deg);
+  size: 1.2rem;
+  color: rgba(51,0,255,0.5);
 }
 .location {
   background-color: #222;
@@ -100,6 +117,7 @@ header .profile-image:hover {
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
+
 }
 .card:hover {
   border-color: #ff99ff;
@@ -109,6 +127,12 @@ ul.skills {
   padding: 0;
   text-align: center;
 }
+
+.card ul li {
+  margin-top: 1.5rem;
+  line-height: 1.5rem;
+}
+
 
 .skills li {
   border-radius: 6px;
