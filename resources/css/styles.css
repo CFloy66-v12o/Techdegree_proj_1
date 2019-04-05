@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+/* universal styles */
+html {
+  font-size: 18px;
+}
+
+body {
+  background: rgba(170,170,170,0.2);
+  margin: 0.6rem 0.6rem auto 0.6rem;
+}
+
+header {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 1.4rem;
+  font-family: cursive, fantasy;
+  margin-bottom: 2rem;
+  background: url(../../resources/images/responsive.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 20rem;
+}
+
+header h1 {
+  background: rgba(255,51,255,0.4);
+}
+
+.container-left {
+  width: 12.5rem;
+  float: left;
+  border: solid black 5px;
+  border-radius: 12px;
+  background: rgba(204,0,0,0.2);
+}
+
+.container-left p {
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+
+.container-right {
+  width: 12.5rem;
+  height: 12rem;
+  float: right;
+  border: solid black 5px;
+  border-radius: 12px;
+  background: rgba(51,102,255,0.2);
+}
+
+
+.container-right p {
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+.click {
+  text-decoration: underline;
+  color: blue;
+}
+
+span:active {
+  position: relative;
+  top: 4px;
+  left: 4px;
+}
