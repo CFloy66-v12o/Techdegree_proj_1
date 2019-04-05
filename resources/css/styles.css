@@ -41,10 +41,15 @@ header h1 {
   background: rgba(204,0,0,0.2);
   margin-left: 3rem;
   margin-top: -18.89rem;
+  height: 20rem;
 }
 
 .container-left p {
-  padding: 1rem 1rem 1rem 1rem;
+  padding: 0.2rem 1.5rem 1rem 1.5rem;
+}
+
+.container-left h3 {
+  text-align: center;
 }
 
 
