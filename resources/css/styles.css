@@ -10,22 +10,27 @@ body {
   margin: 0.6rem 0.6rem auto 0.6rem;
   background: url(../../resources/images/responsive.png);
 }
+ @media screen and (min-width: 240px) {
 
+
+/* header */
 header {
   text-align: center;
   text-decoration: underline;
   font-size: 1.4rem;
-  font-family: cursive, fantasy;
   margin-bottom: 2rem;
-
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 20rem;
 }
 
+
+
 header h1 {
   background: rgba(0,0,255,0.4);
+  font-family: fantasy;
+  letter-spacing: 2.7rem;
 }
 
 .container-left {
@@ -69,3 +74,5 @@ span:active {
   top: 4px;
   left: 4px;
 }
+
+} /*end media query*/

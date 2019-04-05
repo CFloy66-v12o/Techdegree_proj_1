@@ -73,8 +73,11 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('../../resources/images/kentland_8house_fire2.jpg') no-repeat top center ;
+  background: url('../../resources/images/kentland_8house_fire2.jpg');
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   overflow: hidden;
   padding-top: 60px;
 }
