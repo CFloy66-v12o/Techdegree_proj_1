@@ -78,7 +78,7 @@ a:hover {
 header {
   text-align: center;
   background: url('../../resources/images/kentland_8house_fire5.jpeg');
-  background-size: cover;
+  background-size: auto;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
